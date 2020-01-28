@@ -1,10 +1,10 @@
-let logItems = function(array) {
+const logItems = function(array) {
     
     for (let i = 0; i < array.length; i += 1){
         let n = 1
         n = n + i
-        logItems = (`${n} - ${array[i]}`);
-        console.log(logItems) 
+        
+        console.log(`${n} - ${array[i]}`)
     } 
     
 
